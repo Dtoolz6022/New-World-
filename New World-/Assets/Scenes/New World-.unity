@@ -136,6 +136,9 @@ GameObject:
   - component: {fileID: 470940851}
   - component: {fileID: 470940850}
   - component: {fileID: 470940854}
+  - component: {fileID: 470940857}
+  - component: {fileID: 470940856}
+  - component: {fileID: 470940855}
   m_Layer: 14
   m_Name: Plane
   m_TagString: Untagged
@@ -231,8 +234,47 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.750477, y: 2.7833195, z: 9.728374}
-  m_Center: {x: 0.05003214, y: 1.4202421, z: 0.13581404}
+  m_Size: {x: 9.750477, y: 2.0500798, z: 0.12973914}
+  m_Center: {x: 0.0500323, y: 1.0536225, z: 4.9351645}
+--- !u!65 &470940855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470940849}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17998664, y: 1.3694657, z: 10.563763}
+  m_Center: {x: 4.798767, y: 0.53644127, z: -0.36866826}
+--- !u!65 &470940856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470940849}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1024823, y: 2.6116266, z: 10.424894}
+  m_Center: {x: -6.043438, y: -0.19373116, z: -0.084225975}
+--- !u!65 &470940857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470940849}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.301188, y: 1.8863809, z: 1.6428503}
+  m_Center: {x: -0.7383639, y: 0.39791697, z: -5.4517593}
 --- !u!1 &661198092
 GameObject:
   m_ObjectHideFlags: 0
